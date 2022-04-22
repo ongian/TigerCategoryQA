@@ -22,6 +22,7 @@ const getSKUs = async(link) => {
             const withCloserLook = await checkSKUImages(params.get('EdpNo'))
 
             SKUs.push({
+                edp: link,
                 item: ItemNo.trim(),
                 withCloserLook: withCloserLook,
                 withImg: checkImg ? 'NO' : 'YES'
