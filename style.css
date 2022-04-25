@@ -125,7 +125,7 @@ table td span.out-of-stock, table td span.cnet, table td span.less-4, .not-match
     transform:rotate(360deg); 
   } 
 }
-/*
+
 .loader span {
   background: url(./skip.jpg);
   background-size: cover;
@@ -142,7 +142,7 @@ table td span.out-of-stock, table td span.cnet, table td span.less-4, .not-match
   -moz-animation:spin 4s linear infinite;
   animation:spin 4s linear infinite;
 }
-*/
+
 .loader {
     color: #000000;
     font-size: 65px;
